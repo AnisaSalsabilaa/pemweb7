@@ -10,7 +10,7 @@ $pesan			= $_POST['pesan'];
 
 
 // Query SQL untuk menambahkan data pada tabel kontak
-$query = "INSERT INTO kontak (id, nama, jkel, email, alamat, kota, pesan) VALUES (1, 'Anisa Rahma', 'Perempuan', 'anisars@gmailcom', 'Waru',        'Sidoarjo', 'Semangat kuliahnya!')";
+$query = "INSERT INTO kontak (id, nama, jkel, email, alamat, kota, pesan) VALUES (1, 'Anisa Rahma', 'Perempuan', 'anisars@gmail.com', 'Waru', 'Sidoarjo', 'Semangat kuliahnya!')";
 mysqli_query($koneksi, $query);
 
 // Mengalihkan ke halaman tampilkontak.php
